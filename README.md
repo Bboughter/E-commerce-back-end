@@ -2,12 +2,7 @@
 
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
-
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
+The purpose of this app is to provide a back-end database for an e-commerce platform. This project was created using database schemas which include tables for products, categories, tags, and product tags. The tables are connected together using primary and foreign keys in order to connect all data together. There are API routes included in order to create, remove, update, and edit information in the tables.
 
 ## Table of Contents 
 
@@ -19,21 +14,39 @@ Provide a short description explaining the what, why, and how of your project. U
 
 ## Installation
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+The user will need to have a functional terminal and the ability to install node.js. They will also need to install MySQL, the MySQL Wokbench, and an open source app to interact with API's such as Insomnia. The user will need to install the following dependencies using the terminal: dotenv, express, mysql2, and sequelize.
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
+Once the user has created their repository using GitHub, they will need to clone their repository into their VSCode. After it is done, they will need to create their package.json using "npm init" or "npm init -y" to answer all prompted questions as yes. Then the user will need to install the dependencies dotenv, express, mysql2, and sequelize by using their respective "npm i" commands.
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
+The user will then create their database using the MySQL Wokbench and use their terminal to seed their data by using the command "node seeds/index.js". After, the user will verify that their .env file contains the correct database name, user, and password to run the schema. 
 
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
+The user is now ready to to start running their server by using the command "node server.js", "nodemon server.js", "npm run start" or "npm run watch". Once the server has started running, the user will switch to their API app such as Insonmia.
+
+In Insomnia, the user will run different endpoints depending on the data they would like to receive back. The following is a list of possible endpoints and their functionality.
+
+•	GET /api/categories - Returns a list of all categories in the database.
+•	GET /api/products - Returns a list of all products in the database.
+•	GET /api/tags - Returns a list of all tags in the database.
+•	GET /api/categories/:id – Returns the category requested by the associated id.
+•	GET /api/products/:id – Returns the product requested by the associated id.
+•	GET /api/tags/:id – Returns the tag requested by the associated id.
+•	POST /api/categories - Creates a new category in the database.
+•	POST /api/products - Creates a new product in the database.
+•	POST /api/tags - Creates a new tag in the database.
+•	PUT /api/categories/:id - Updates an existing category in the database by the associated id.
+•	PUT /api/products/:id - Updates an existing product in the database by the associated id.
+•	PUT /api/tags/:id - Updates an existing tag in the database by the associated id.
+•	DELETE /api/categories/:id - Deletes an existing category from the database with the associated id.
+•	DELETE /api/products/:id - Deletes an existing product from the database with the associated id.
+•	DELETE /api/tags/:id - Deletes an existing tag from the database with the associated id.
+
+This is a link to a demo video of this application: 
 
 ## Credits
 
-As always, huge shoutout to our instructor, Bryan, our TA, shawn, and my amazing classmates at the UCLA Extended Campus Full Stack Bootcamp.
+As always, huge shoutout to our instructor, Bryan, our TA, Shawn, and my amazing classmates at the UCLA Extended Campus Full Stack Bootcamp.
 
 ## License
 
