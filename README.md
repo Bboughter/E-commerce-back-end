@@ -26,21 +26,21 @@ The user is now ready to to start running their server by using the command "nod
 
 In Insomnia, the user will run different endpoints depending on the data they would like to receive back. The following is a list of possible endpoints and their functionality.
 
-•	GET /api/categories - Returns a list of all categories in the database.
-•	GET /api/products - Returns a list of all products in the database.
-•	GET /api/tags - Returns a list of all tags in the database.
-•	GET /api/categories/:id – Returns the category requested by the associated id.
-•	GET /api/products/:id – Returns the product requested by the associated id.
-•	GET /api/tags/:id – Returns the tag requested by the associated id.
-•	POST /api/categories - Creates a new category in the database.
-•	POST /api/products - Creates a new product in the database.
-•	POST /api/tags - Creates a new tag in the database.
-•	PUT /api/categories/:id - Updates an existing category in the database by the associated id.
-•	PUT /api/products/:id - Updates an existing product in the database by the associated id.
-•	PUT /api/tags/:id - Updates an existing tag in the database by the associated id.
-•	DELETE /api/categories/:id - Deletes an existing category from the database with the associated id.
-•	DELETE /api/products/:id - Deletes an existing product from the database with the associated id.
-•	DELETE /api/tags/:id - Deletes an existing tag from the database with the associated id.
+*   GET /api/categories - Returns a list of all categories in the database.
+*   GET /api/products - Returns a list of all products in the database.
+*   GET /api/tags - Returns a list of all tags in the database.
+*   GET /api/categories/:id – Returns the category requested by the associated id.
+*   GET /api/products/:id – Returns the product requested by the associated id.
+*   GET /api/tags/:id – Returns the tag requested by the associated id.
+*   POST /api/categories - Creates a new category in the database.
+*   POST /api/products - Creates a new product in the database.
+*   POST /api/tags - Creates a new tag in the database.
+*   PUT /api/categories/:id - Updates an existing category in the database by the associated id.
+*   PUT /api/products/:id - Updates an existing product in the database by the associated id.
+*   PUT /api/tags/:id - Updates an existing tag in the database by the associated id.
+*   DELETE /api/categories/:id - Deletes an existing category from the database with the associated id.
+*   DELETE /api/products/:id - Deletes an existing product from the database with the associated id.
+*   DELETE /api/tags/:id - Deletes an existing tag from the database with the associated id.
 
 This is a link to a demo video of this application: 
 
