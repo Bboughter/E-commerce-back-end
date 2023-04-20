@@ -42,7 +42,7 @@ In Insomnia, the user will run different endpoints depending on the data they wo
 *   DELETE /api/products/:id - Deletes an existing product from the database with the associated id.
 *   DELETE /api/tags/:id - Deletes an existing tag from the database with the associated id.
 
-This is a link to a demo video of this application: 
+This is a link to a demo video of this application: https://drive.google.com/file/d/1AWyk-oYYLcjBk4CCA9DnHhPo6u49c1bG/view
 
 ## Credits
 

@@ -31,7 +31,7 @@ router.get('/:id', async (req, res) => {
   }
 });
 
-// create new product
+// create new product, code provided
 router.post('/', (req, res) => {
   /* req.body should look like this...
     {
@@ -64,7 +64,7 @@ router.post('/', (req, res) => {
     });
 });
 
-// update product
+// update product, code provided
 router.put('/:id', (req, res) => {
   // update product data
   Product.update(req.body, {
@@ -106,6 +106,7 @@ router.put('/:id', (req, res) => {
     });
 });
 
+//delete product, code provided
 router.delete('/:id', async (req, res) => {
   // delete one product by its `id` value
   try {
